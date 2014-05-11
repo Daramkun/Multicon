@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <RelativeLayout android:layout_height="100sp" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+        <ImageButton android:layout_alignParentLeft="true" android:id="@+id/btnF5" android:layout_width="80sp" android:layout_height="80sp" android:src="@drawable/presentation1" android:layout_centerVertical="true"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnF5" android:layout_alignTop="@+id/btnF5" android:layout_alignBottom="@+id/btnF5" android:layout_width="80sp" android:id="@+id/btnSf5" android:src="@drawable/presentation2"></ImageButton>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="100sp" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+        <ImageButton android:layout_alignParentLeft="true" android:id="@+id/btnPrevSlide" android:layout_height="80sp" android:layout_width="80sp" android:src="@drawable/presentation3"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnPrevSlide" android:layout_alignTop="@+id/btnPrevSlide" android:layout_alignBottom="@+id/btnPrevSlide" android:layout_width="80sp" android:src="@drawable/presentation4" android:id="@+id/btnNextSlide"></ImageButton>
+    </RelativeLayout>
+</LinearLayout>

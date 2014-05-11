@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multicon</string>
+    <string name="conn_ip_msg">接続 IP</string>
+    <string name="conn_btn">接続</string>
+    <string name="recent_list_msg">以前接続</string>
+    <string name="recent_list_clear">リストを消す</string>
+    <string name="fullscreen_btn">Enter (フルスクリーン)</string>
+    <string name="mv_play_btn">Space (再生/一時停止)</string>
+    <string name="warning">警告</string>
+    <string name="warn_msg">3G 利用時課金されます。</string>
+    <string name="err">エラー</string>
+    <string name="err_msg">インターネットに接続されていません。</string>
+    <string name="back">戻る</string>
+    <string name="connfail">接続失敗</string>
+    <string name="success">成功</string>
+    <string name="suc_msg">接続に成功しました。</string>
+    <string name="disconn">レシーバとの接続が解除されています。</string>
+    <string name="disconnected">接続解除</string>
+    <string name="gamepad_vaild">[ゲームパッド ベータ] ゲームパッドが表示されない場合、画面を一度タッチしてください。</string>
+    <string name="gamepad_invaild">[ゲームパッド ベータ] これらの機器では正常に動作しない可能性があります。</string>
+    <string name="tab_conn">接続</string>
+    <string name="tab_multi">マルチメディア</string>
+    <string name="tab_pres">プレゼンテーション</string>
+    <string name="tab_gamepad">ゲームパッド</string>
+    <string name="fir_msg">このプログラムは、Windowsオペレーティングシステムにレシーバをインストールして使用することができます。</string>
+</resources>

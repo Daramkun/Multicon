@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+  
+    <RelativeLayout android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_height="100sp">
+    	<ImageButton android:layout_width="80sp" android:layout_height="80sp" android:id="@+id/btnPrev" android:layout_centerVertical="true" android:src="@drawable/btn_pre"></ImageButton>
+    	<ImageButton android:layout_toRightOf="@+id/btnPrev" android:layout_alignTop="@+id/btnPrev" android:layout_alignBottom="@+id/btnPrev" android:layout_height="80sp" android:layout_width="80sp" android:id="@+id/btnPlay" android:src="@drawable/btn_play"></ImageButton>
+    	<ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnPlay" android:layout_alignTop="@+id/btnPlay" android:layout_alignBottom="@+id/btnPlay" android:id="@+id/btnStop" android:layout_width="80sp" android:src="@drawable/btn_stop"></ImageButton>
+    	<ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnStop" android:layout_alignTop="@+id/btnStop" android:layout_alignBottom="@+id/btnStop" android:id="@+id/btnNext" android:layout_width="80sp" android:src="@drawable/btn_post"></ImageButton>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_height="100sp">
+        <ImageButton android:layout_alignParentLeft="true" android:layout_height="80sp" android:layout_width="80sp" android:id="@+id/btnVd" android:src="@drawable/btn_vold" android:layout_centerVertical="true"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnVd" android:layout_alignTop="@+id/btnVd" android:layout_alignBottom="@+id/btnVd" android:id="@+id/btnVm" android:src="@drawable/btn_mute" android:layout_width="80sp"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnVm" android:layout_alignTop="@+id/btnVm" android:layout_alignBottom="@+id/btnVm" android:id="@+id/btnVu" android:layout_width="80sp" android:src="@drawable/btn_volu"></ImageButton>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="100sp">
+        <Button android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:id="@+id/btnEnter" android:text="@string/fullscreen_btn" android:layout_centerVertical="true" android:layout_height="80sp"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_toRightOf="@+id/btnEnter" android:layout_alignTop="@+id/btnEnter" android:layout_alignBottom="@+id/btnEnter" android:id="@+id/btnSpace" android:text="@string/mv_play_btn"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>

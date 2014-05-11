@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multicon</string>
+    <string name="conn_ip_msg">Connection IP</string>
+    <string name="conn_btn">Connect</string>
+    <string name="recent_list_msg">Recent connections</string>
+    <string name="recent_list_clear">Clear this list</string>
+    <string name="fullscreen_btn">Enter (Fullscreen)</string>
+    <string name="mv_play_btn">Space (Play/Pause)</string>
+    <string name="warning">Warning</string>
+    <string name="warn_msg">3G can be billed for use.</string>
+    <string name="err">Error</string>
+    <string name="err_msg">This machine is not connected to the Internet.</string>
+    <string name="back">Back</string>
+    <string name="connfail">Connection failed.</string>
+    <string name="success">Success</string>
+    <string name="suc_msg">Connection success.</string>
+    <string name="disconn">Disconnected from Receiver.</string>
+    <string name="disconnected">Disconnected.</string>
+    <string name="gamepad_vaild">[GamePad Beta] If you can\'t viewing Gamepad, Touch the screen once.</string>
+    <string name="gamepad_invaild">[GamePad Beta] In your device screen may not operate properly.</string>
+    <string name="tab_conn">Connect</string>
+    <string name="tab_multi">Multimedia</string>
+    <string name="tab_pres">Presentation</string>
+    <string name="tab_gamepad">GamePad</string>
+    <string name="fir_msg">The program for the Windows operating system to install the receiver can be used.</string>
+</resources>
